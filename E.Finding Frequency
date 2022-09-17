@@ -1,0 +1,18 @@
+arr = list(map(int, input ().split()))
+key = arr[-1]
+lst = list(map(int, input().split()))
+narr = dict()
+for i in lst:
+    if i in narr.keys():
+        narr[i]+= 1
+    else:
+        narr[i] = 1
+count = int (input())
+while count:
+    i = int (input())
+    if i in narr.keys():
+        print (narr[i])
+    else:
+        print (0)
+    count-= 1
+#31987
