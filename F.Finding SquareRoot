@@ -1,0 +1,2 @@
+import math
+print('%.6f'%math.sqrt(int(input())))
