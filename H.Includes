@@ -1,0 +1,10 @@
+
+sarr1 = int(input())
+arr1 =set(map(int,input().split()))
+
+sarr2 = int(input())
+arr2 =set(map(int,input().split()))
+if(len(arr2.difference(arr1))):
+	print("0")
+else:
+	print("1")
